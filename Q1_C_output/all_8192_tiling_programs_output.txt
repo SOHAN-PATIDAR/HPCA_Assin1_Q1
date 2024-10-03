@@ -1,0 +1,129 @@
+
+=========================
+Performance stats for matBlock_8192_ijk
+=========================
+
+ Performance counter stats for './matBlock_8192_ijk':
+
+      1,769,417.68 msec task-clock                       #    1.000 CPUs utilized             
+            10,819      context-switches                 #    6.114 /sec                      
+               233      cpu-migrations                   #    0.132 /sec                      
+           254,253      page-faults                      #  143.693 /sec                      
+ 8,075,196,874,607      cycles                           #    4.564 GHz                         (13.04%)
+28,757,472,311,430      instructions                     #    3.56  insn per cycle              (17.39%)
+   587,551,030,908      branches                         #  332.059 M/sec                       (21.74%)
+     8,793,744,625      branch-misses                    #    1.50% of all branches             (26.09%)
+     1,540,942,323      cache-misses                     #   35.91% of all cache refs           (30.44%)
+     4,291,499,322      cache-references                 #    2.425 M/sec                       (34.78%)
+12,729,241,751,007      dTLB-loads                       #    7.194 G/sec                       (39.13%)
+       145,706,412      dTLB-load-misses                 #    0.00% of all dTLB cache accesses  (39.13%)
+ 1,125,940,277,145      dTLB-stores                      #  636.334 M/sec                       (39.13%)
+         3,420,485      dTLB-store-misses                #    1.933 K/sec                       (39.13%)
+   <not supported>      iTLB-loads                                                            
+           500,525      iTLB-load-misses                                                        (17.39%)
+12,734,334,489,328      L1-dcache-loads                  #    7.197 G/sec                       (17.39%)
+    36,103,232,524      L1-dcache-load-misses            #    0.28% of all L1-dcache accesses   (17.39%)
+   <not supported>      L1-icache-loads                                                       
+       185,665,918      L1-icache-load-misses                                                   (17.39%)
+     8,837,946,334      L2_rqsts.miss                    #    4.995 M/sec                       (17.39%)
+       328,445,442      L2-loads                         #  185.623 K/sec                       (17.39%)
+       227,396,426      L2-load-misses                   #   69.23% of all L1-icache accesses   (17.39%)
+        25,290,677      L2-stores                        #   14.293 K/sec                       (8.70%)
+        13,706,118      L2-store-misses                  #    7.746 K/sec                       (8.70%)
+       328,645,742      LLC-loads                        #  185.737 K/sec                       (8.70%)
+       227,533,562      LLC-load-misses                  #   69.28% of all L1-icache accesses   (8.70%)
+        29,103,077      LLC-stores                       #   16.448 K/sec                       (8.70%)
+        18,613,609      LLC-store-misses                 #   10.520 K/sec                       (8.70%)
+
+    1769.473779412 seconds time elapsed
+
+    1769.136800000 seconds user
+       0.271990000 seconds sys
+
+
+
+=========================
+Performance stats for matBlock_8192_jik
+=========================
+
+ Performance counter stats for './matBlock_8192_jik':
+
+      1,766,035.03 msec task-clock                       #    1.000 CPUs utilized             
+             9,264      context-switches                 #    5.246 /sec                      
+               271      cpu-migrations                   #    0.153 /sec                      
+           254,253      page-faults                      #  143.968 /sec                      
+ 8,067,969,461,667      cycles                           #    4.568 GHz                         (13.04%)
+28,758,178,035,039      instructions                     #    3.56  insn per cycle              (17.39%)
+   587,455,204,195      branches                         #  332.641 M/sec                       (21.74%)
+     8,793,286,309      branch-misses                    #    1.50% of all branches             (26.09%)
+     1,728,954,922      cache-misses                     #   38.58% of all cache refs           (30.43%)
+     4,481,983,617      cache-references                 #    2.538 M/sec                       (34.78%)
+12,729,547,493,466      dTLB-loads                       #    7.208 G/sec                       (39.13%)
+       144,488,829      dTLB-load-misses                 #    0.00% of all dTLB cache accesses  (39.13%)
+ 1,125,795,029,084      dTLB-stores                      #  637.470 M/sec                       (39.13%)
+         3,465,601      dTLB-store-misses                #    1.962 K/sec                       (39.13%)
+   <not supported>      iTLB-loads                                                            
+           458,051      iTLB-load-misses                                                        (17.39%)
+12,733,014,144,906      L1-dcache-loads                  #    7.210 G/sec                       (17.39%)
+    36,202,454,193      L1-dcache-load-misses            #    0.28% of all L1-dcache accesses   (17.39%)
+   <not supported>      L1-icache-loads                                                       
+       178,832,591      L1-icache-load-misses                                                   (17.39%)
+     9,207,269,633      L2_rqsts.miss                    #    5.214 M/sec                       (17.39%)
+       345,595,734      L2-loads                         #  195.690 K/sec                       (17.39%)
+       217,712,227      L2-load-misses                   #   63.00% of all L1-icache accesses   (17.39%)
+        22,752,726      L2-stores                        #   12.884 K/sec                       (8.70%)
+        14,780,528      L2-store-misses                  #    8.369 K/sec                       (8.70%)
+       344,375,822      LLC-loads                        #  194.999 K/sec                       (8.70%)
+       217,479,640      LLC-load-misses                  #   62.93% of all L1-icache accesses   (8.70%)
+        23,829,502      LLC-stores                       #   13.493 K/sec                       (8.70%)
+        15,581,289      LLC-store-misses                 #    8.823 K/sec                       (8.70%)
+
+    1766.081888294 seconds time elapsed
+
+    1765.775013000 seconds user
+       0.251991000 seconds sys
+
+
+
+=========================
+Performance stats for matBlock_8192_kij
+=========================
+
+ Performance counter stats for './matBlock_8192_kij':
+
+      1,765,332.72 msec task-clock                       #    1.000 CPUs utilized             
+             8,973      context-switches                 #    5.083 /sec                      
+               358      cpu-migrations                   #    0.203 /sec                      
+           254,253      page-faults                      #  144.026 /sec                      
+ 8,057,450,199,938      cycles                           #    4.564 GHz                         (13.04%)
+28,755,564,131,289      instructions                     #    3.57  insn per cycle              (17.39%)
+   587,451,113,527      branches                         #  332.771 M/sec                       (21.74%)
+     8,794,303,304      branch-misses                    #    1.50% of all branches             (26.09%)
+       572,111,886      cache-misses                     #   27.08% of all cache refs           (30.43%)
+     2,112,524,343      cache-references                 #    1.197 M/sec                       (34.78%)
+12,729,291,275,618      dTLB-loads                       #    7.211 G/sec                       (39.13%)
+         4,179,586      dTLB-load-misses                 #    0.00% of all dTLB cache accesses  (39.13%)
+ 1,125,841,679,334      dTLB-stores                      #  637.750 M/sec                       (39.13%)
+         3,308,225      dTLB-store-misses                #    1.874 K/sec                       (39.13%)
+   <not supported>      iTLB-loads                                                            
+           254,647      iTLB-load-misses                                                        (17.39%)
+12,734,697,504,452      L1-dcache-loads                  #    7.214 G/sec                       (17.39%)
+    35,918,895,744      L1-dcache-load-misses            #    0.28% of all L1-dcache accesses   (17.39%)
+   <not supported>      L1-icache-loads                                                       
+       173,076,244      L1-icache-load-misses                                                   (17.39%)
+     2,324,782,000      L2_rqsts.miss                    #    1.317 M/sec                       (17.39%)
+       289,387,465      L2-loads                         #  163.928 K/sec                       (17.39%)
+        63,318,440      L2-load-misses                   #   21.88% of all L1-icache accesses   (17.39%)
+        22,344,654      L2-stores                        #   12.657 K/sec                       (8.70%)
+        15,161,864      L2-store-misses                  #    8.589 K/sec                       (8.70%)
+       288,604,902      LLC-loads                        #  163.485 K/sec                       (8.70%)
+        62,601,622      LLC-load-misses                  #   21.63% of all L1-icache accesses   (8.70%)
+        23,338,326      LLC-stores                       #   13.220 K/sec                       (8.70%)
+        14,305,159      LLC-store-misses                 #    8.103 K/sec                       (8.70%)
+
+    1765.372258737 seconds time elapsed
+
+    1765.075893000 seconds user
+       0.251993000 seconds sys
+
+
