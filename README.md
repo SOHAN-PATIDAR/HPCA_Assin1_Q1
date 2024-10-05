@@ -1,4 +1,4 @@
-This readme file for Q1 of Assignment_1 that explains about the wroking of code, how it is executed and how the required results are generated.
+This README file is for Q1 of Assignment_1 that explains about the wroking of code, how it is executed and how the required results are generated.
 
 **Q1** consist of 3 subparts which are implemented separately here in different folder namely **Q1_A, Q1_B** and **Q1_c** and the expected results are stored in three folders namely **Q1_A_output,Q1_B_output** and **Q1_C_output**
 
